@@ -1,0 +1,25 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.93rem;
+  padding: 35px;
+  text-transform: uppercase;
+  background-color: white;
+
+  .left-side {
+    .nav-links-container {
+      display: flex;
+      justify-content: space-between;
+      width: 342px;
+      .nav-link {
+        border-bottom: 1px solid transparent;
+
+        a {
+          text-decoration: none;
+          color:$grey;
+        }
+      }
+    }
+  }
+}

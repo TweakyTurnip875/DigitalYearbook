@@ -6,7 +6,7 @@ const Home = () => {
       <div className="home-wrapper">
         <div className="home-background-container">
           <div className="class-school-wrapper">
-            <h1>Launch High School</h1>
+            <h1>_____ High School</h1>
             <h2>Class of 2023</h2>
           </div>
         </div>

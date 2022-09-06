@@ -1,0 +1,31 @@
+.home-background-container {
+  background: url('../assets/images/background.jpg');
+  position: absolute;
+  background-attachment: fixed;
+  background-size: cover;
+  width:100vw;
+  height: 100vh;
+  .class-school-wrapper {
+    margin: 100px;
+    background-color: $offwhite;
+    width: 500px;
+    padding: 50px;
+    border: 5px dashed #bbbfbf;
+    border-radius: 20px;
+    h1 {
+      font-size: 2.5em;
+      background-color: #d999e0;
+      color: white;
+      padding: 10px;
+      width: 400px;
+      border-radius: 10px;
+    }
+    h2{ 
+      background-color: #f7a34f;
+      font-size: 2em;
+      padding: 10px;
+      width: 200px;
+      border-radius: 10px;
+    }
+  }
+}

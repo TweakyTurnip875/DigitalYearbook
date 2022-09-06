@@ -1,9 +1,11 @@
 import React from 'react'
 
+import FeaturedContainer from '../featured/featured-container'
+
 const Yearbooks = () => {
   return (
     <div>
-      <h1>Yearbooks</h1>
+      <FeaturedContainer />
     </div>
   )
 }

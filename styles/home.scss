@@ -1,13 +1,11 @@
 .home-background-container {
-  background: url('../assets/images/background.jpg');
   position: absolute;
-  background-attachment: fixed;
-  background-size: cover;
+
   width:100vw;
-  height: 100vh;
+  height: calc(100vh - 104px);
   .class-school-wrapper {
     margin: 100px;
-    background-color: $offwhite;
+    background-color: $main;
     width: 500px;
     padding: 50px;
     border: 5px dashed #bbbfbf;

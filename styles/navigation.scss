@@ -5,8 +5,8 @@
   font-size: 0.93rem;
   padding: 40px;
   text-transform: uppercase;
-  background-color: white;
-  border-bottom: 1px solid #bbbfbf;
+  background-color: $main;
+
 
   .left-side {
     .nav-links-container {
@@ -18,9 +18,12 @@
 
         a {
           text-decoration: none;
-          color:$grey;
+          color:white;
         }
       }
     }
+  }
+  .right-side {
+    color: white;
   }
 }

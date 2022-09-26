@@ -9,6 +9,9 @@ const Home = () => {
             <h1>_____ High School</h1>
             <h2>Class of 2023</h2>
           </div>
+          <div className="attribution">
+            <a href="https://www.vecteezy.com/free-vector/star">Star Vectors by Vecteezy</a>
+          </div>
         </div>
       </div>
     </div>

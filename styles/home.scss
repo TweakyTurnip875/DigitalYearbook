@@ -1,8 +1,12 @@
 .home-background-container {
+  background-image: url(../assets/images/space.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
   position: absolute;
 
   width:100vw;
-  height: calc(100vh - 104px);
+  height: calc(100vh - 50px);
   .class-school-wrapper {
     margin: 100px;
     background-color: $main;
@@ -25,5 +29,8 @@
       width: 200px;
       border-radius: 10px;
     }
+  }
+  .attribution a {
+    color: white;
   }
 }
